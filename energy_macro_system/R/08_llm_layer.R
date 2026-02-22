@@ -1,5 +1,6 @@
 # 08_llm_layer.R
 # Clean, concise LLM narrative layer for Energy–Macro dashboard
+# OLLAMA_BASE_URL and OLLAMA_MODEL are read from the environment for production (e.g. remote Ollama server).
 
 library(httr)
 library(jsonlite)
