@@ -1,0 +1,15 @@
+# A suitable specialized image like rstudio/plumber or a base R image like rocker/r-base
+FROM rstudio/plumber
+
+# Install R packages
+RUN R -e "install.packages(c('dplyr', 'plumber'))"
+
+# Copy your Plumber API files
+COPY plumber.R /app/plumber.R
+
+# Expose the port Plumber listens on
+EXPOSE 8000
+
+# Command to run your Plumber API,
+# using the image's built-in process.
+CMD ["/app/plumber.R"]

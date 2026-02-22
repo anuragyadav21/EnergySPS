@@ -1,0 +1,215 @@
+/* Energy–Macro Simulator — executive dashboard styles */
+
+/* System Status Summary at top: compact, smaller cards */
+.executive-status-section {
+  margin-bottom: 1rem;
+}
+.status-summary-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--bs-body-color);
+  margin-bottom: 0.5rem;
+}
+.status-hr {
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+  border-color: var(--bs-border-color-translucent);
+}
+.status-placeholder {
+  padding: 0.35rem 0;
+}
+
+/* Smaller value boxes: tighter padding and smaller fonts */
+.executive-status-section .status-metric-card .bslib-value-box,
+.executive-status-section .status-metric-card .card {
+  padding: 0.35rem 0.5rem;
+}
+.executive-status-section .status-metric-card .bslib-value-box .value-box-title,
+.executive-status-section .status-metric-card .card .value-box-title,
+.executive-status-section .status-metric-card .card .card-title {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+.executive-status-section .status-metric-card .bslib-value-box .value-box-value,
+.executive-status-section .status-metric-card .card .value-box-value,
+.executive-status-section .status-metric-card .card .fs-2 {
+  font-size: 0.95rem !important;
+  font-weight: 600;
+}
+
+/* Single cool, subtle theme for all four status cards (no success/danger/warning) */
+.executive-status-section .status-metric-card .bslib-value-box,
+.executive-status-section .status-metric-card .card {
+  background-color: #eef2f6 !important;
+  border: 1px solid #c5cdd6 !important;
+  border-radius: 0.5rem;
+  color: #374151;
+}
+.executive-status-section .status-metric-card .bslib-value-box .value-box-title,
+.executive-status-section .status-metric-card .bslib-value-box .value-box-value,
+.executive-status-section .status-metric-card .card .value-box-title,
+.executive-status-section .status-metric-card .card .value-box-value,
+.executive-status-section .status-metric-card .card .card-title,
+.executive-status-section .status-metric-card .card .fs-2 {
+  color: #374151 !important;
+}
+
+/* Toggle description under each card */
+.status-card-details {
+  margin-top: 0.35rem;
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+.status-card-details summary {
+  cursor: pointer;
+  font-weight: 500;
+  color: #6b7280;
+}
+.status-card-details[open] summary {
+  margin-bottom: 0.25rem;
+}
+.status-card-details p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Title bar (Energy–Macro Simulator): cool, subtle header */
+.bslib-page-sidebar > header,
+.bslib-page-sidebar .navbar,
+.bslib-page-sidebar .sidebar-title,
+.bslib-page-sidebar [class*="sidebar"] > header {
+  background-color: #475569 !important;
+  color: #f1f5f9 !important;
+}
+.bslib-page-sidebar > header .navbar-brand,
+.bslib-page-sidebar .navbar .navbar-brand,
+.bslib-page-sidebar > header .title,
+.bslib-page-sidebar .navbar .title,
+.bslib-page-sidebar .sidebar-title,
+.bslib-page-sidebar .sidebar-title * {
+  color: #f1f5f9 !important;
+}
+
+/* Collapsible project summary in title bar: expands sideways (to the right) */
+.dashboard-title-row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+.dashboard-title-text {
+  font-weight: 600;
+  flex-shrink: 0;
+  font-size: 1.35rem;
+}
+.title-summary-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-size: 0.85rem;
+  font-weight: normal;
+  flex: 0 1 auto;
+  min-width: 0;
+}
+.title-summary-details summary {
+  cursor: pointer;
+  color: rgba(241, 245, 249, 0.9);
+  text-decoration: underline;
+  list-style: none;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.title-summary-details summary::-webkit-details-marker {
+  display: none;
+}
+/* 2–3 long horizontal lines when expanded sideways */
+.title-summary-content {
+  display: none;
+  margin-top: 0;
+  padding: 0.25rem 0;
+  max-width: 68ch;
+  line-height: 1.35;
+  color: #e2e8f0;
+  font-size: 0.8rem;
+  flex-shrink: 0;
+}
+/* When open, content appears to the right of "What is this?" */
+.title-summary-details[open] .title-summary-content {
+  display: block;
+  margin-left: 0.75rem;
+  padding-left: 0.75rem;
+  border-left: 1px solid rgba(241, 245, 249, 0.3);
+}
+.title-summary-content p {
+  margin: 0;
+}
+
+/* AI Economic Summary: prominent card, light background, subtle shadow */
+.llm-summary-card {
+  max-width: 72ch;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1.25rem;
+  background: var(--bs-secondary-bg-subtle, #f8f9fa);
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border: 1px solid var(--bs-border-color-translucent, rgba(0, 0, 0, 0.08));
+}
+.llm-summary-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--bs-body-color);
+}
+.llm-narrative {
+  max-width: 72ch;
+  line-height: 1.6;
+  font-family: inherit;
+  padding: 0.5rem 0;
+  background: transparent;
+  border-radius: 0;
+  border-left: none;
+}
+.llm-summary-card .llm-narrative {
+  padding: 0;
+}
+.llm-summary-card .llm-narrative pre {
+  white-space: pre-wrap;
+  margin: 0;
+  font-family: inherit;
+}
+
+/* Section headers: larger, consistent spacing for hierarchy */
+.section-heading {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.value-card {
+  text-align: center;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  background: var(--bs-body-bg);
+  border: 1px solid var(--bs-border-color);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.value-card .value {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--bs-primary);
+}
+
+.dashboard-details summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0.25rem 0;
+}
+
+.dashboard-details[open] summary {
+  margin-bottom: 0.5rem;
+}

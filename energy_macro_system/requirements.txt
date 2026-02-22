@@ -1,0 +1,7 @@
+# Energy–Macro Shock Propagation Simulator — Python
+pandas>=1.3.0
+numpy>=1.20.0
+statsmodels>=0.13.0
+scipy>=1.7.0
+certifi>=2021.0.0
+python-docx>=0.8.11

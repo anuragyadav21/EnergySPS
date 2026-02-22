@@ -1,0 +1,31 @@
+# Data (keep structure via data/.gitkeep)
+data/*
+!data/.gitkeep
+
+# Environment and secrets
+.env
+.env.local
+*.key
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs and temp
+*.log
+tmp/
+temp/
+*.tmp
