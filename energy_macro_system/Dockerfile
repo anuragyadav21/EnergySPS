@@ -2,10 +2,21 @@
 # Build from repo root: docker build -f energy_macro_system/Dockerfile energy_macro_system
 # Or from app dir:  cd energy_macro_system && docker build -t energy-macro-shiny .
 
-FROM rocker/shiny:4.3.2
+FROM --platform=linux/amd64 rocker/shiny:4.3.2
 
-RUN R -e "install.packages(c('shiny', 'bslib', 'dplyr', 'tidyr', 'readr', 'ggplot2', 'DT', 'httr', 'jsonlite', 'lubridate', 'vars', 'MASS', 'Matrix'), repos = 'https://cloud.r-project.org', Ncpus = 2)"
+# System libraries required by R packages (httr, openssl, xml2, etc.)
+RUN apt-get update && apt-get install -y \
+    libssl-dev \
+    libcurl4-openssl-dev \
+    libxml2-dev \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
 
+# Install all R packages required by app.R and R/*.R (see install_packages.R)
+COPY install_packages.R /tmp/install_packages.R
+RUN Rscript /tmp/install_packages.R
+
+# Copy app into Shiny server directory
 COPY . /srv/shiny-server/
 
 RUN chown -R shiny:shiny /srv/shiny-server && \

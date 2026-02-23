@@ -81,6 +81,15 @@ openai_chat <- function(prompt,
 
   if (!is.null(res) && httr::status_code(res) == 200) {
     out <- jsonlite::fromJSON(httr::content(res, as = "text"), simplifyDataFrame = FALSE)
+    # Log token usage if present (production-safe; no crash if missing)
+    usage <- out$usage
+    if (!is.null(usage)) {
+      message("Prompt tokens: ", if (is.null(usage$prompt_tokens)) "N/A" else usage$prompt_tokens)
+      message("Completion tokens: ", if (is.null(usage$completion_tokens)) "N/A" else usage$completion_tokens)
+      message("Total tokens: ", if (is.null(usage$total_tokens)) "N/A" else usage$total_tokens)
+    } else {
+      message("Token usage data not available.")
+    }
     return(out$choices[[1]]$message$content)
   }
 
