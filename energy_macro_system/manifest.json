@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "locale": "en",
+  "platform": "4.3.2",
+  "metadata": {
+    "appmode": "shiny",
+    "entrypoint": "app.R"
+  },
+  "packages": {},
+  "files": {
+    "app.R": {
+      "checksum": "7f24ad9721d5d220d9b0c3fea66815cb"
+    }
+  }
+}
