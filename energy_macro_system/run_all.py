@@ -2,6 +2,7 @@
 # run_all.py — Run full Energy–Macro Shock Propagation Simulator pipeline (Python)
 
 import os
+import subprocess
 import sys
 from pathlib import Path
 
@@ -57,6 +58,12 @@ def main():
     print(f"Shock amplification factor: {stab['shock_amplification_factor']:.4f}")
 
     print("\n=== Pipeline complete. ===")
+    print("\n--- Starting Shiny app ---")
+    print("Dashboard will open at http://localhost:3838 (press Ctrl+C to stop).\n")
+    subprocess.run(
+        ["R", "-e", "shiny::runApp('.', port = 3838, launch.browser = TRUE)"],
+        cwd=str(ROOT),
+    )
 
 
 if __name__ == "__main__":
