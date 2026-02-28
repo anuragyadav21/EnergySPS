@@ -28,4 +28,5 @@ jobs:
           api-key: ${{ secrets.CONNECT_API_KEY }}
           access-type: acl
           dir: energy_macro_system
-          force: false
+          manifest: energy_macro_system/manifest.json
+          force: true
