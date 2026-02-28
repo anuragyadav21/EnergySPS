@@ -2628,24 +2628,6 @@
     "data/.gitkeep": {
       "checksum": "68b329da9893e34099c7d8ad5cb9c940"
     },
-    "data/A_matrix.csv": {
-      "checksum": "4b2e9b529446bf808d58847c6e631c2e"
-    },
-    "data/covariance_matrix.csv": {
-      "checksum": "bd66fcab95eb4152f9c8965cb5c9e54a"
-    },
-    "data/eia_raw.csv": {
-      "checksum": "ff08fe96a426e691a56ac3c12727d10f"
-    },
-    "data/fred_raw.csv": {
-      "checksum": "984d14c625793141c06eef2e3a7b3c44"
-    },
-    "data/system_timeseries.csv": {
-      "checksum": "953168d87e217d1ff85dd730346887f0"
-    },
-    "data/worldbank_structural.csv": {
-      "checksum": "d1d32e0033b7af3a8a1c802f5afd90a6"
-    },
     "DEPLOY.md": {
       "checksum": "601ab882f470b2ac0da6f3aaf3539357"
     },
