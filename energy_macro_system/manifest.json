@@ -12,7 +12,7 @@
   "packages": {
     "DT": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "DT",
@@ -39,7 +39,7 @@
     },
     "MASS": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "MASS",
         "Priority": "recommended",
@@ -69,7 +69,7 @@
     },
     "Matrix": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "Matrix",
         "Version": "1.7-4",
@@ -102,7 +102,7 @@
     },
     "R6": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "R6",
         "Title": "Encapsulated Classes with Reference Semantics",
@@ -129,7 +129,7 @@
     },
     "RColorBrewer": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "RColorBrewer",
         "Version": "1.1-3",
@@ -150,7 +150,7 @@
     },
     "Rcpp": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "Rcpp",
         "Title": "Seamless R and C++ Integration",
@@ -180,7 +180,7 @@
     },
     "S7": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "S7",
         "Title": "An Object Oriented System Meant to Become a Successor to S3 and\nS4",
@@ -213,7 +213,7 @@
     },
     "askpass": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "askpass",
         "Type": "Package",
@@ -241,7 +241,7 @@
     },
     "base64enc": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "base64enc",
         "Version": "0.1-6",
@@ -265,7 +265,7 @@
     },
     "bit": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "bit",
         "Title": "Classes and Methods for Fast Memory-Efficient Boolean Selections",
@@ -294,7 +294,7 @@
     },
     "bit64": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "bit64",
         "Title": "A S3 Class for Vectors of 64bit Integers",
@@ -324,7 +324,7 @@
     },
     "bslib": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "bslib",
         "Title": "Custom 'Bootstrap' 'Sass' Themes for 'shiny' and 'rmarkdown'",
@@ -357,7 +357,7 @@
     },
     "cachem": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "cachem",
         "Version": "1.1.0",
@@ -385,7 +385,7 @@
     },
     "cli": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "cli",
         "Title": "Helpers for Developing Command Line Interfaces",
@@ -414,7 +414,7 @@
     },
     "clipr": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "clipr",
@@ -443,7 +443,7 @@
     },
     "commonmark": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "commonmark",
         "Type": "Package",
@@ -470,7 +470,7 @@
     },
     "cpp11": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "cpp11",
         "Title": "A C++11 Interface for R's C Interface",
@@ -499,7 +499,7 @@
     },
     "crayon": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "crayon",
         "Title": "Colored Terminal Output",
@@ -526,7 +526,7 @@
     },
     "crosstalk": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "crosstalk",
@@ -553,7 +553,7 @@
     },
     "curl": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "curl",
         "Type": "Package",
@@ -583,7 +583,7 @@
     },
     "digest": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "digest",
         "Authors@R": "c(person(\"Dirk\", \"Eddelbuettel\", role = c(\"aut\", \"cre\"), email = \"edd@debian.org\",\n                    comment = c(ORCID = \"0000-0001-6419-907X\")),\n             person(\"Antoine\", \"Lucas\", role=\"ctb\", comment = c(ORCID = \"0000-0002-8059-9767\")),\n             person(\"Jarek\", \"Tuszynski\", role=\"ctb\"),\n             person(\"Henrik\", \"Bengtsson\", role=\"ctb\", comment = c(ORCID = \"0000-0002-7579-5165\")),\n             person(\"Simon\", \"Urbanek\", role=\"ctb\", comment = c(ORCID = \"0000-0003-2297-1732\")),\n             person(\"Mario\", \"Frasca\", role=\"ctb\"),\n             person(\"Bryan\", \"Lewis\", role=\"ctb\"),\n             person(\"Murray\", \"Stokely\", role=\"ctb\"),\n             person(\"Hannes\", \"Muehleisen\", role=\"ctb\", comment = c(ORCID = \"0000-0001-8552-0029\")),\n             person(\"Duncan\", \"Murdoch\", role=\"ctb\"),\n             person(\"Jim\", \"Hester\", role=\"ctb\", comment = c(ORCID = \"0000-0002-2739-7082\")),\n             person(\"Wush\", \"Wu\", role=\"ctb\", comment = c(ORCID = \"0000-0001-5180-0567\")),\n             person(\"Qiang\", \"Kou\", role=\"ctb\", comment = c(ORCID = \"0000-0001-6786-5453\")),\n             person(\"Thierry\", \"Onkelinx\", role=\"ctb\", comment = c(ORCID = \"0000-0001-8804-4216\")),\n             person(\"Michel\", \"Lang\", role=\"ctb\", comment = c(ORCID = \"0000-0001-9754-0393\")),\n             person(\"Viliam\", \"Simko\", role=\"ctb\"),\n             person(\"Kurt\", \"Hornik\", role=\"ctb\", comment = c(ORCID = \"0000-0003-4198-9911\")),\n             person(\"Radford\", \"Neal\", role=\"ctb\", comment = c(ORCID = \"0000-0002-2473-3407\")),\n             person(\"Kendon\", \"Bell\", role=\"ctb\", comment = c(ORCID = \"0000-0002-9093-8312\")),\n             person(\"Matthew\", \"de Queljoe\", role=\"ctb\"),\n             person(\"Dmitry\", \"Selivanov\", role=\"ctb\", comment = c(ORCID = \"0000-0003-0492-6647\")),\n             person(\"Ion\", \"Suruceanu\", role=\"ctb\", comment = c(ORCID = \"0009-0005-6446-4909\")),\n             person(\"Bill\", \"Denney\", role=\"ctb\", comment = c(ORCID = \"0000-0002-5759-428X\")),\n             person(\"Dirk\", \"Schumacher\", role=\"ctb\"),\n             person(\"András\", \"Svraka\", role=\"ctb\", comment = c(ORCID = \"0009-0008-8480-1329\")),\n             person(\"Sergey\", \"Fedorov\", role=\"ctb\", comment = c(ORCID = \"0000-0002-5970-7233\")),\n             person(\"Will\", \"Landau\", role=\"ctb\", comment = c(ORCID = \"0000-0003-1878-3253\")),\n             person(\"Floris\", \"Vanderhaeghe\", role=\"ctb\", comment = c(ORCID = \"0000-0002-6378-6229\")),\n             person(\"Kevin\", \"Tappe\", role=\"ctb\"),\n             person(\"Harris\", \"McGehee\", role=\"ctb\"),\n             person(\"Tim\", \"Mastny\", role=\"ctb\"),\n             person(\"Aaron\", \"Peikert\", role=\"ctb\", comment = c(ORCID = \"0000-0001-7813-818X\")),\n             person(\"Mark\", \"van der Loo\", role=\"ctb\", comment = c(ORCID = \"0000-0002-9807-4686\")),\n             person(\"Chris\", \"Muir\", role=\"ctb\", comment = c(ORCID = \"0000-0003-2555-3878\")),\n             person(\"Moritz\", \"Beller\", role=\"ctb\", comment = c(ORCID = \"0000-0003-4852-0526\")),\n             person(\"Sebastian\", \"Campbell\", role=\"ctb\", comment = c(ORCID = \"0009-0000-5948-4503\")),\n             person(\"Winston\", \"Chang\", role=\"ctb\", comment = c(ORCID = \"0000-0002-1576-2126\")),\n             person(\"Dean\", \"Attali\", role=\"ctb\", comment = c(ORCID = \"0000-0002-5645-3493\")),\n             person(\"Michael\", \"Chirico\", role=\"ctb\", comment = c(ORCID = \"0000-0003-0787-087X\")),\n             person(\"Kevin\", \"Ushey\", role=\"ctb\", comment = c(ORCID = \"0000-0003-2880-7407\")),\n             person(\"Carl\", \"Pearson\", role=\"ctb\", comment = c(ORCID = \"0000-0003-0701-7860\")))",
@@ -611,7 +611,7 @@
     },
     "dplyr": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "dplyr",
@@ -644,7 +644,7 @@
     },
     "evaluate": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "evaluate",
@@ -672,7 +672,7 @@
     },
     "farver": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "farver",
@@ -699,7 +699,7 @@
     },
     "fastmap": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "fastmap",
         "Title": "Fast Data Structures",
@@ -724,7 +724,7 @@
     },
     "fontawesome": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "fontawesome",
@@ -753,7 +753,7 @@
     },
     "fs": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "fs",
         "Title": "Cross-Platform File System Operations Based on 'libuv'",
@@ -787,7 +787,7 @@
     },
     "generics": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "generics",
         "Title": "Common S3 Generics not Provided by Base R Methods Related to\nModel Fitting",
@@ -815,7 +815,7 @@
     },
     "ggplot2": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "ggplot2",
         "Title": "Create Elegant Data Visualisations Using the Grammar of Graphics",
@@ -848,7 +848,7 @@
     },
     "glue": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "glue",
         "Title": "Interpreted String Literals",
@@ -879,7 +879,7 @@
     },
     "gtable": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "gtable",
         "Title": "Arrange 'Grobs' in Tables",
@@ -909,7 +909,7 @@
     },
     "highr": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "highr",
         "Type": "Package",
@@ -937,7 +937,7 @@
     },
     "hms": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "hms",
         "Title": "Pretty Time of Day",
@@ -965,7 +965,7 @@
     },
     "htmltools": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "htmltools",
@@ -997,7 +997,7 @@
     },
     "htmlwidgets": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "htmlwidgets",
@@ -1025,7 +1025,7 @@
     },
     "httpuv": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "httpuv",
@@ -1056,7 +1056,7 @@
     },
     "httr": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "httr",
         "Title": "Tools for Working with URLs and HTTP",
@@ -1084,7 +1084,7 @@
     },
     "isoband": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "isoband",
         "Title": "Generate Isolines and Isobands from Regularly Spaced Elevation\nGrids",
@@ -1116,7 +1116,7 @@
     },
     "jquerylib": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "jquerylib",
         "Title": "Obtain 'jQuery' as an HTML Dependency Object",
@@ -1140,7 +1140,7 @@
     },
     "jsonlite": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "jsonlite",
         "Version": "2.0.0",
@@ -1167,7 +1167,7 @@
     },
     "knitr": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "knitr",
         "Type": "Package",
@@ -1197,7 +1197,7 @@
     },
     "labeling": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "labeling",
         "Type": "Package",
@@ -1219,7 +1219,7 @@
     },
     "later": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "later",
@@ -1253,7 +1253,7 @@
     },
     "lattice": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "lattice",
         "Version": "0.22-7",
@@ -1282,7 +1282,7 @@
     },
     "lazyeval": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "lazyeval",
         "Version": "0.2.2",
@@ -1307,7 +1307,7 @@
     },
     "lifecycle": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "lifecycle",
         "Title": "Manage the Life Cycle of your Package Functions",
@@ -1336,7 +1336,7 @@
     },
     "lmtest": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "lmtest",
         "Title": "Testing Linear Regression Models",
@@ -1361,7 +1361,7 @@
     },
     "lubridate": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "lubridate",
@@ -1396,7 +1396,7 @@
     },
     "magrittr": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "magrittr",
@@ -1426,7 +1426,7 @@
     },
     "memoise": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "memoise",
         "Title": "'Memoisation' of Functions",
@@ -1451,7 +1451,7 @@
     },
     "mime": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "mime",
         "Type": "Package",
@@ -1477,7 +1477,7 @@
     },
     "nlme": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "nlme",
         "Version": "3.1-168",
@@ -1507,7 +1507,7 @@
     },
     "openssl": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "openssl",
         "Type": "Package",
@@ -1536,7 +1536,7 @@
     },
     "otel": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "otel",
         "Title": "OpenTelemetry R API",
@@ -1564,7 +1564,7 @@
     },
     "pillar": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "pillar",
         "Title": "Coloured Formatting for Columns",
@@ -1597,7 +1597,7 @@
     },
     "pkgconfig": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "pkgconfig",
         "Title": "Private Configuration for 'R' Packages",
@@ -1621,7 +1621,7 @@
     },
     "prettyunits": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "prettyunits",
         "Title": "Pretty, Human Readable Formatting of Quantities",
@@ -1646,7 +1646,7 @@
     },
     "progress": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "progress",
         "Title": "Terminal Progress Bars",
@@ -1674,7 +1674,7 @@
     },
     "promises": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "promises",
@@ -1706,7 +1706,7 @@
     },
     "purrr": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "purrr",
         "Title": "Functional Programming Tools",
@@ -1740,7 +1740,7 @@
     },
     "rappdirs": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "rappdirs",
@@ -1771,7 +1771,7 @@
     },
     "readr": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "readr",
         "Title": "Read Rectangular Text Data",
@@ -1804,7 +1804,7 @@
     },
     "rlang": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "rlang",
         "Version": "1.1.7",
@@ -1837,7 +1837,7 @@
     },
     "rmarkdown": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "rmarkdown",
@@ -1868,7 +1868,7 @@
     },
     "sandwich": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "sandwich",
         "Version": "3.1-1",
@@ -1893,7 +1893,7 @@
     },
     "sass": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "sass",
@@ -1923,7 +1923,7 @@
     },
     "scales": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "scales",
         "Title": "Scale Functions for Visualization",
@@ -1953,7 +1953,7 @@
     },
     "shiny": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "shiny",
@@ -1983,7 +1983,7 @@
     },
     "sourcetools": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "sourcetools",
         "Type": "Package",
@@ -2008,7 +2008,7 @@
     },
     "stringi": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "stringi",
         "Version": "1.8.7",
@@ -2038,7 +2038,7 @@
     },
     "stringr": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "stringr",
         "Title": "Simple, Consistent Wrappers for Common String Operations",
@@ -2069,7 +2069,7 @@
     },
     "strucchange": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "strucchange",
         "Version": "1.5-4",
@@ -2094,7 +2094,7 @@
     },
     "sys": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "sys",
         "Type": "Package",
@@ -2121,7 +2121,7 @@
     },
     "tibble": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "tibble",
         "Title": "Simple Data Frames",
@@ -2157,7 +2157,7 @@
     },
     "tidyr": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "tidyr",
         "Title": "Tidy Messy Data",
@@ -2190,7 +2190,7 @@
     },
     "tidyselect": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "tidyselect",
         "Title": "Select from a Set of Strings",
@@ -2220,7 +2220,7 @@
     },
     "timechange": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "timechange",
         "Title": "Efficient Manipulation of Date-Times",
@@ -2248,7 +2248,7 @@
     },
     "tinytex": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "tinytex",
         "Type": "Package",
@@ -2274,7 +2274,7 @@
     },
     "tzdb": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "tzdb",
         "Title": "Time Zone Database Information",
@@ -2304,7 +2304,7 @@
     },
     "urca": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "urca",
         "Version": "1.3-4",
@@ -2328,7 +2328,7 @@
     },
     "utf8": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "utf8",
         "Title": "Unicode Text Processing",
@@ -2356,7 +2356,7 @@
     },
     "vars": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "vars",
         "Type": "Package",
@@ -2385,7 +2385,7 @@
     },
     "vctrs": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "vctrs",
         "Title": "Vector Helpers",
@@ -2418,7 +2418,7 @@
     },
     "viridisLite": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "viridisLite",
         "Type": "Package",
@@ -2445,7 +2445,7 @@
     },
     "vroom": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "vroom",
         "Title": "Read and Write Rectangular Text Data Quickly",
@@ -2481,7 +2481,7 @@
     },
     "withr": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "withr",
         "Title": "Run Code 'With' Temporarily Modified Global State",
@@ -2511,7 +2511,7 @@
     },
     "xfun": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "xfun",
         "Type": "Package",
@@ -2540,7 +2540,7 @@
     },
     "xtable": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "xtable",
         "Version": "1.8-4",
@@ -2565,7 +2565,7 @@
     },
     "yaml": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Type": "Package",
         "Package": "yaml",
@@ -2594,7 +2594,7 @@
     },
     "zoo": {
       "Source": "CRAN",
-      "Repository": "https://cran.nyuad.nyu.edu",
+      "Repository": "https://cloud.r-project.org",
       "description": {
         "Package": "zoo",
         "Version": "1.8-15",
@@ -2619,8 +2619,8 @@
     }
   },
   "files": {
-    ".env": {
-      "checksum": "9697c3f623b1eec26d1542d4a1af6ed2"
+    ".Rbuildignore": {
+      "checksum": "e05d063a19907336358dd3530d563c32"
     },
     "app.R": {
       "checksum": "7f24ad9721d5d220d9b0c3fea66815cb"
@@ -2734,13 +2734,13 @@
       "checksum": "ffdbe22c2fbaf969e3d3c1a8f34ba922"
     },
     "R/00_load_env.R": {
-      "checksum": "325ad62bc690fae93440c2ca687b7411"
+      "checksum": "469dcfe4972bc0e2469b00f43384095d"
     },
     "R/01_fetch_fred.R": {
-      "checksum": "cb793db3426a5fc09e6af6553fb06f03"
+      "checksum": "e94f66db50459d5a972cb90e201be322"
     },
     "R/02_fetch_eia.R": {
-      "checksum": "269d98f4094c316ca73a7ec8b62ca414"
+      "checksum": "2da1e188322e74b6c39dbc0e103cf749"
     },
     "R/03_fetch_worldbank.R": {
       "checksum": "47f73dac2d679df75188948faf16ce56"
@@ -2785,7 +2785,7 @@
       "checksum": "001aa661616de2033d3c75bbc20cc280"
     },
     "scripts/test_api_keys.R": {
-      "checksum": "312c33f07979a3efeea6c62279f30f0c"
+      "checksum": "aea6a422d919007cb8998b70d4aa6719"
     },
     "scripts/test_ollama_openai.py": {
       "checksum": "da8e7091d0a6258d83c44c1277953b6e"
