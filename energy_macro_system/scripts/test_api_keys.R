@@ -1,36 +1,9 @@
 # test_api_keys.R — Verify FRED, EIA, and OpenAI API keys with minimal requests
 # Run from project root: Rscript energy_macro_system/scripts/test_api_keys.R
 # Or from energy_macro_system: Rscript scripts/test_api_keys.R
+# Keys are read from environment only (e.g. Posit Connect). No .env file required.
 
 options(warn = 1)
-
-# Load .env into environment (KEY=value; also "# KEY=value" so commented keys are used)
-load_dotenv <- function(path = ".env") {
-  if (!file.exists(path)) return(invisible(NULL))
-  lines <- readLines(path, warn = FALSE)
-  for (line in lines) {
-    line <- trimws(line)
-    if (line == "") next
-    if (substr(line, 1L, 1L) == "#") line <- trimws(substr(line, 2L, nchar(line)))
-    idx <- regexpr("=", line, fixed = TRUE)
-    if (idx < 1) next
-    key <- trimws(substr(line, 1L, idx - 1L))
-    val <- trimws(substr(line, idx + 1L, nchar(line)))
-    if (nzchar(key) && nzchar(val)) do.call(Sys.setenv, setNames(list(val), key))
-  }
-  invisible(NULL)
-}
-
-# Find .env: next to script (energy_macro_system/.env) or in cwd
-args <- commandArgs(trailingOnly = FALSE)
-script_path <- sub("^--file=", "", args[grep("^--file=", args)])
-if (length(script_path) && nzchar(script_path)) {
-  env_path <- normalizePath(file.path(dirname(script_path), "..", ".env"), mustWork = FALSE)
-} else {
-  env_path <- ".env"
-}
-if (!file.exists(env_path) && file.exists("energy_macro_system/.env")) env_path <- "energy_macro_system/.env"
-load_dotenv(env_path)
 
 fred_key <- Sys.getenv("FRED_API_KEY")
 eia_key  <- Sys.getenv("EIA_API_KEY")
@@ -118,7 +91,7 @@ cat("OpenAI: ", (r_openai <- test_openai())$msg, "\n\n")
 
 all_ok <- r_fred$ok && r_eia$ok && r_openai$ok
 cat("--- Result ---\n")
-if (all_ok) cat("All API keys working.\n") else cat("One or more checks failed. Fix keys or .env (uncomment KEY=value lines).\n")
+if (all_ok) cat("All API keys working.\n") else cat("One or more checks failed. Set FRED_API_KEY, EIA_API_KEY, OPENAI_API_KEY in environment.\n")
 
 # Sample query: show a few rows from FRED and EIA
 if (all_ok && r_fred$ok) {

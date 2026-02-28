@@ -13,23 +13,7 @@ library(readr)
 
 `%||%` <- function(x, y) if (is.null(x)) y else x
 
-# Load .env
-if (!exists("load_dotenv")) {
-  load_dotenv <- function(path) {
-    if (!file.exists(path)) return(invisible(NULL))
-    lines <- readLines(path, warn = FALSE)
-    for (line in lines) {
-      line <- trimws(line); if (line == "") next
-      if (substr(line, 1L, 1L) == "#") line <- trimws(substr(line, 2L, nchar(line)))
-      idx <- regexpr("=", line, fixed = TRUE); if (idx < 1) next
-      key <- trimws(substr(line, 1L, idx - 1L)); val <- trimws(substr(line, idx + 1L, nchar(line)))
-      if (nzchar(key) && nzchar(val)) do.call(Sys.setenv, setNames(list(val), key))
-    }
-    invisible(NULL)
-  }
-}
-for (env in c(".env", "../.env", "energy_macro_system/.env")) if (file.exists(env)) { load_dotenv(env); break }
-
+# API key from environment only (e.g. Posit Connect). No .env file required.
 EIA_BASE <- "https://api.eia.gov/v2"
 
 #' Fetch EIA v2 route with pagination and error handling
@@ -116,7 +100,6 @@ fetch_net_generation <- function(api_key, length = 500) {
 
 #' Run EIA fetch: retail sales + generation, compute renewable share and demand growth
 run_fetch_eia <- function(out_dir = "data", env_path = NULL) {
-  if (!is.null(env_path)) load_dotenv(env_path)
   api_key <- Sys.getenv("EIA_API_KEY")
   if (is.null(api_key) || !nzchar(api_key)) stop("EIA_API_KEY not set.")
 

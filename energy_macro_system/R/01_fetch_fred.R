@@ -12,23 +12,7 @@ library(readr)
 
 `%||%` <- function(x, y) if (is.null(x)) y else x
 
-# Load .env (source R/00_load_env.R first, or use inline loader)
-if (!exists("load_dotenv")) {
-  load_dotenv <- function(path) {
-    if (!file.exists(path)) return(invisible(NULL))
-    lines <- readLines(path, warn = FALSE)
-    for (line in lines) {
-      line <- trimws(line); if (line == "") next
-      if (substr(line, 1L, 1L) == "#") line <- trimws(substr(line, 2L, nchar(line)))
-      idx <- regexpr("=", line, fixed = TRUE); if (idx < 1) next
-      key <- trimws(substr(line, 1L, idx - 1L)); val <- trimws(substr(line, idx + 1L, nchar(line)))
-      if (nzchar(key) && nzchar(val)) do.call(Sys.setenv, setNames(list(val), key))
-    }
-    invisible(NULL)
-  }
-}
-for (env in c(".env", "../.env", "energy_macro_system/.env")) if (file.exists(env)) { load_dotenv(env); break }
-
+# API key from environment only (e.g. Posit Connect). No .env file required.
 FRED_BASE <- "https://api.stlouisfed.org/fred/series/observations"
 FRED_RATE_LIMIT_DELAY <- 0.5  # seconds between requests (FRED allows 120/min)
 
@@ -39,7 +23,7 @@ FRED_RATE_LIMIT_DELAY <- 0.5  # seconds between requests (FRED allows 120/min)
 fetch_fred_series <- function(series_id,
                               api_key = Sys.getenv("FRED_API_KEY")) {
   if (is.null(api_key) || !nzchar(api_key)) {
-    stop("FRED_API_KEY not set. Add to .env or set Sys.setenv(FRED_API_KEY = '...')")
+    stop("FRED_API_KEY not set. Set FRED_API_KEY in environment (e.g. Posit Connect).")
   }
   url <- sprintf(
     "%s?series_id=%s&api_key=%s&file_type=json",
@@ -92,7 +76,6 @@ quarterly_to_monthly <- function(df, date_col = "date", value_col = "value") {
 
 #' Fetch all FRED series, convert GDP to monthly, write data/fred_raw.csv
 run_fetch_fred <- function(out_dir = "data", env_path = NULL) {
-  if (!is.null(env_path)) load_dotenv(env_path) else if (exists("get_env_path", mode = "function")) load_dotenv(get_env_path())
   api_key <- Sys.getenv("FRED_API_KEY")
   if (is.null(api_key) || !nzchar(api_key)) stop("FRED_API_KEY not set.")
 
